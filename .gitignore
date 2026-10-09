@@ -1,0 +1,10 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+uv.lock
+test.db
+scraped_content/
+telemetry/
+graphify-out/
+_local_llm.py
