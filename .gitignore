@@ -1,10 +1,20 @@
+# secrets
 .env
+.env.*
+!.env.example
+
+# environment
 .venv/
 __pycache__/
 *.pyc
 uv.lock
+
+# runtime data
 test.db
 scraped_content/
 telemetry/
 graphify-out/
+
+# local only
 _local_llm.py
+*.zip

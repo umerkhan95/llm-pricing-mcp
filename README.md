@@ -17,15 +17,11 @@ An MCP-powered chatbot that scrapes LLM inference providers' pricing pages, stor
 Requires Python 3.10+, [uv](https://docs.astral.sh/uv/) and Node.js.
 
 ```bash
-uv sync
+uv sync                          # or: pip install -r requirements.txt
+cp .env.example .env             # then fill in your keys
 ```
 
-Create a `.env` file:
-
-```
-ANTHROPIC_API_KEY=...
-FIRECRAWL_API_KEY=fc-...
-```
+`.env` needs `ANTHROPIC_API_KEY` and `FIRECRAWL_API_KEY`.
 
 ## Usage
 
